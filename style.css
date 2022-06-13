@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #DBE2EF;
+}
+h2{
+    margin-right: 25%;
+}
+/*
+@media (max-width: 480px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+*/
