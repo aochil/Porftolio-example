@@ -52,3 +52,9 @@ h2 {
     position: absolute;
     top: 25%;
 }
+
+#landing2{
+    height: auto;
+    width: 100%;
+    background-color: 3F72AF;
+}
