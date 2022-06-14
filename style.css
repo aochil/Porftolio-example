@@ -9,7 +9,7 @@ header {
   background-color: #3F72AF;
   color: whitesmoke;
 }
-h2 {
+header h2 {
   margin-right: 25%;
 }
 /*
@@ -34,6 +34,9 @@ h2 {
     border-radius: 3rem;
 
 }
+#landing img{
+    width: 100%;
+}
 
 #landing-text{
     align-self: center;
@@ -41,6 +44,7 @@ h2 {
 }
 #landing-img{
     margin-left: 5%;
+    border: solid .2rem #112D4E;
 }
 
 #landing,
@@ -89,4 +93,36 @@ footer{
     align-items: center;
     color: white;
     
+}
+
+@media only screen and (min-width: 992px) {
+    #landing{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 45rem;
+    }
+    #landing-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    #landing-img{
+        margin: 0;
+    }
+
+    #landing2-item3{
+        display: flex;
+        flex-direction: column;
+    }
+    #landing2-title{
+        margin: 0;
+    }
+
+    footer{
+        margin: 0 20%;
+    }
 }
