@@ -9,6 +9,11 @@ header {
   background-color: #3f72af;
   color: whitesmoke;
 }
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
 header h2 {
   margin-right: 25%;
 }
@@ -162,6 +167,9 @@ footer {
 }
 
 @media only screen and (min-width: 1150px) {
+    header h2{
+        margin-right: 40%;
+    }
   #landing {
     display: flex;
     justify-content: center;
@@ -173,6 +181,7 @@ footer {
       width: 80%;
       height: 30rem;
       margin: 5% 0 0 7%;
+      border: solid .4rem #7FB5FF;
   }
   .landing2-item{
       display: flex;
