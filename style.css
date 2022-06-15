@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  background-color: #112D4E;
+  background-color: #112d4e;
 }
 header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #3F72AF;
+  background-color: #3f72af;
   color: whitesmoke;
 }
 header h2 {
@@ -23,106 +23,170 @@ header h2 {
 }
 */
 
-#landing{
-    margin: 3% 10% 5% 10%;
-    padding: 2.5rem 5rem;
-    height: 30rem;
-    display: flex;
-    justify-content: center;
-    background-color: #C4DDFF;
-    box-sizing: content-box;
-    border-radius: 3rem;
+#landing {
+  margin: 3% 10% 5% 10%;
+  padding: 2.5rem 5rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  background-color: #c4ddff;
+  box-sizing: content-box;
+  border-radius: 3rem;
+}
+#landing img {
+  width: 100%;
+}
 
+#landing-text {
+  align-self: center;
+  font-size: x-large;
 }
-#landing img{
-    width: 100%;
-}
-
-#landing-text{
-    align-self: center;
-    font-size: x-large;
-}
-#landing-img{
-    margin-left: 5%;
-    border: solid .2rem #112D4E;
+#landing-img {
+  margin-left: 5%;
+  border: solid 0.2rem #112d4e;
 }
 
 #landing,
-#landing-img{
-    border-radius: 3rem;
+#landing-img {
+  border-radius: 3rem;
 }
 
-#landing2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+#landing2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-#landing2-title{
-    font-size: xxx-large;
-    color: white;
-    text-align: center;
+#landing2-title {
+  font-size: xxx-large;
+  color: white;
+  text-align: center;
 }
 
-.landing2-item{
-    position: relative;
-    background-color: #3F72AF;
-    margin: 3% 10% 5% 10%;
-    padding: 2.5rem 5rem;
-    display: flex;
-    height: auto;
-    border-radius: 1rem;
-    border: solid 0.3rem #C4DDFF;
-    
+.landing2-item {
+  position: relative;
+  background-color: #3f72af;
+  margin: 3% 10% 5% 10%;
+  padding: 2.5rem 5rem;
+  display: flex;
+  height: auto;
+  border-radius: 1rem;
+  border: solid 0.3rem #c4ddff;
 }
-.landing2-text{
-    margin: 0 3rem;
-    color: white;
-    text-align: center;
+.landing2-text {
+  margin: 0 3rem;
+  color: white;
+  text-align: center;
 }
-.landing2-img{
-    height: 15rem;
-    border-radius: 1rem;
-    border: solid .3rem #C4DDFF;
-}
-
-footer{
-    margin: 0 40%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    
+.landing2-img {
+  height: 15rem;
+  border-radius: 1rem;
+  border: solid 0.3rem #c4ddff;
 }
 
-@media only screen and (min-width: 992px) {
-    #landing{
+footer {
+  margin: 0 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+@media only screen and (min-width: 550px) {
+    header h2{
+        margin-right: 15%;
+    }
+    #landing,
+    .landing2-item {
         display: flex;
-        justify-content: center;
         flex-direction: column;
-        height: 45rem;
+    }
+    #landing{
+        padding: 2.5rem;
+        height: max-content;
+    }
+    #landing-title{
+        font-size: xx-large;
     }
     #landing-text{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        font-size: medium;
         text-align: center;
-        width: 80%;
-        margin-bottom: 5%;
     }
-    #landing-img{
+    #landing-btn{
+        margin-top: 1rem;
+    }
+    #landing img{
+        width: 100%;
+        margin: 10% 0 0 0;
+        height: auto;
+    }
+    .landing2-text{
         margin: 0;
+        text-align: justify;
     }
-
-    #landing2-item3{
-        display: flex;
-        flex-direction: column;
-    }
-    #landing2-title{
-        margin: 0;
-    }
-
     footer{
         margin: 0 20%;
     }
+}
+
+@media only screen and (min-width: 992px) {
+  #landing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 45rem;
+  }
+  #landing-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 5%;
+  }
+  #landing img {
+    margin: 0;
+  }
+
+  #landing2-item3 {
+    display: flex;
+    flex-direction: column;
+  }
+  #landing2-title {
+    margin: 0;
+  }
+
+  footer {
+    margin: 0 20%;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  #landing {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 35rem;
+
+  }
+  #landing img{
+      width: 80%;
+      height: 30rem;
+      margin: 5% 0 0 7%;
+  }
+  .landing2-item{
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+  }
+  .landing2-text{
+      margin: 0 3rem;
+      text-align: center;
+  }
+  #landing2-item3 img{
+      width: 80%;
+      height: 20rem;
+      align-self: center;
+  }
+
 }
