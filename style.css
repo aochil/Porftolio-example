@@ -201,4 +201,87 @@ footer {
 }
 
 /* About Us Page */
+#aboutUs-article{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+}
+#aboutUs-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 35rem;
+    margin: 2% 0;
+}
+#caption{
+    position: absolute;
+    width: 15rem;
+    color: white;
+    top: 20%;
+    right: 12%;
+    text-align: center;
+}
+#greek-statue{
+    margin: 0;
+    height: 34rem;
+    border-radius: 3rem;
+}
+#aboutUs-title{
+    margin: 0;
+    bottom: 55%;
+    font-size: 7rem;
+    color: white;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #aboutUs-container{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+    #aboutUs-title{
+        font-size: 5rem;
+    }
+    #greek-statue{
+        position: relative;
+    }
+    #caption{
+        right: 5%;
+    }
+    #aboutUs-article{
+        margin-bottom: 18%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    article{
+        margin-bottom: 18%;
+    }
+}
+
+/* Large devices (laptops/desktops, 825px and up) */
+@media only screen and (min-width: 825px) {
+    #caption{
+        right: 12%;
+    }
+    #aboutUs-article{
+        margin-bottom: 15%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1015px) {
+    #caption{
+        right: 20%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #caption{
+        right: 25%;
+    }
+}
