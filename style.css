@@ -329,3 +329,36 @@ footer {
     width: 40%;
     color: white;
 }
+
+#contact-title{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2.5% 0;
+}
+
+.contact-title-caption{
+    text-align: center;
+    color: white;
+    margin: 0 0 2.5% 0;
+}
+#contact-info{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+}
+#contact-icon{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 0 10%;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    margin: 0 22%;
+    color: white;
+}
