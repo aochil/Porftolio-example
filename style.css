@@ -57,6 +57,7 @@ header h2 {
 }
 
 #landing2 {
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -259,7 +260,7 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    article{
+    #aboutUs-article{
         margin-bottom: 18%;
     }
 }
@@ -270,7 +271,7 @@ footer {
         right: 12%;
     }
     #aboutUs-article{
-        margin-bottom: 15%;
+        margin-bottom: 10%;
     }
 }
 
@@ -284,4 +285,20 @@ footer {
     #caption{
         right: 25%;
     }
+}
+
+/* Review page */
+#review-stars,
+#star-caption{
+    display: flex;
+    justify-content: center;
+    
+    margin: 2.5% 10%;
+    color: white;
+    font-size: 2rem;
+}
+.checked{
+    color: gold;
+
+
 }
