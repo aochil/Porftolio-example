@@ -359,6 +359,43 @@ footer {
     flex-direction: column;
     justify-content: center;
     justify-content: center;
-    margin: 0 22%;
+    margin: 0 13%;
     color: white;
+    font-size: 1.1rem;
 }
+#contact-form input[type="text"] {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#name, 
+#e-mail{
+    height: 2rem;
+}
+#message{
+    padding: 0 0 30%;
+}
+#contact-btn{
+    align-self: center;
+    width: 25%;
+    height: 2rem;
+    margin-bottom: 15%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+    #contact-info,
+    #contact-form{
+        font-size: 1.4rem;
+    }
+    #contact-form{
+        margin: 0 20%;
+    }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
