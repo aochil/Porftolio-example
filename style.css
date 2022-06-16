@@ -292,13 +292,39 @@ footer {
 #star-caption{
     display: flex;
     justify-content: center;
-    
     margin: 2.5% 10%;
     color: white;
     font-size: 2rem;
 }
 .checked{
     color: gold;
+}
 
+#reviews{
+    margin-bottom: 10%;
+}
 
+.review-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-pfp{
+    position: relative;
+    overflow: hidden;
+    width: 8rem;
+    height: 10rem;
+    border: solid .4rem #C4DDFF;
+    border-radius: 2rem;
+    margin: 0 5%;
+    
+}
+.pfp{
+    max-width: 100%;
+    max-height: auto;
+}
+.customer-review{
+    width: 40%;
+    color: white;
 }
