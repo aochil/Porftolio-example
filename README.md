@@ -4,3 +4,4 @@ Photo by Aleksandar Pasaric: https://www.pexels.com/photo/white-concrete-house-n
 Photo by Josiah Lewis: https://www.pexels.com/photo/stonewall-palace-772689/
 Photo by Antone Adi: https://www.pexels.com/photo/boat-on-ocean-2611070/
 Photo by Hert Niks: https://www.pexels.com/photo/photo-of-a-statue-3224233/
+Photo by Monstera: https://www.pexels.com/photo/smiling-african-american-woman-wearing-hoodie-looking-at-camera-6311487/
