@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us</title>
     <link rel="stylesheet" href="../style.css" />
+    <script src="../script.js" defer></script>
   </head>
   <body>
     <header>
@@ -35,12 +36,13 @@
         </div>
       </div>
     </section>
-    <hr style="width: 86%" />
-    <form id="contact-form">
+    <hr style="width: 70%" />
+    <form name="contactForm" id="contact-form">
       <label for="name">Name:</label><br />
       <input type="text" id="name" name="name" /><br />
       <label for="e-mail">E-mail:</label><br />
       <input type="text" id="e-mail" name="e-mail" /><br />
+      <div id="error"></div>
       <label for="message">Message:</label><br />
       <input type="text" id="message" name="message" /><br />
       <input id="contact-btn" type="submit" value="Submit" />
