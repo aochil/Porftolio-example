@@ -11,3 +11,4 @@ Photo by Meruyert Gonullu: https://www.pexels.com/photo/content-woman-stroking-p
 
 
 CSS Hover effects credit: https://github.com/IanLunn/Hover 
+Button click effect credit: https://codepen.io/BMUZAMMIL/pen/qpqdrM
